@@ -1,11 +1,11 @@
 # Lab 0, ENGO 551
 
 This website includes bits and bobs of information about colors including
--a history on colors which also questions what colors are
--information on the history of pigments
--how the hexidecimal system represents colors
--color management and how colors are kept consistant
--some references for the information
+- a history on colors which also questions what colors are
+- information on the history of pigments
+- how the hexidecimal system represents colors
+- color management and how colors are kept consistant
+- some references for the information
 
 HTML, CSS, Sass, and Bootstrap had been utilized for this project. 
 
