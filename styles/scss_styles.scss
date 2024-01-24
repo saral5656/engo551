@@ -1,20 +1,41 @@
 
 /* Define standard variables and values for website */
-$bgcolor: #bbcbd0;
-$link-color: #0d566c;
+$bgcolor: black;
+$link-color: #00c3ff;
 $hover-color: rgb(0, 50, 250);
-$font: 'Courier New', Courier, monospace;
+$font: Georgia, serif;
 
 /* Use the variables */
 body {
   background-color: $bgcolor;
   font-size: $font;
+  font-family: Georgia, serif;
 } 
+
+h2,h3,h4,h5,h6,th,td,p {
+  padding: 1px 20px 1px 20px; 
+  margin: 20px;
+  color: white;
+}
+ul,li {
+  padding: 1px 20px 1px 20px; 
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a {
+  padding: 1px 20px 1px 20px; 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
 
 .home-table {
     table,th,td{
         margin: auto;
-        border: solid black;
+        border: solid darkslategrey;
     }
     a{
         font-family: $font;
@@ -28,17 +49,71 @@ body {
 
 .col-6 {
     @extend .home-table;
-    border: 20px solid rgb(100, 124, 126);
-    height: 300px;
-    text-align: center
+    border: 20px solid rgb(0, 0, 0);
 
   }
 
 
 .col-6 {
     @extend .home-table;
-    border: 20px solid rgb(100, 124, 126);
-    height: 300px;
-    text-align: center
+    border: 20px solid rgb(50, 50, 50);
+    padding:20px;
 
   }
+
+.square {
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+}
+
+
+
+
+
+.headerbar {
+    padding: 30px 16px 16px 16px;
+    text-align: center;
+    width: 100%;
+    background-image: linear-gradient(to right,indianred, lightsalmon, lemonchiffon,khaki,lightcyan,powderblue,thistle);
+    height:80px;
+    font-size: 20;
+}  
+
+div.place {
+  color:white;
+  font-family: Georgia, serif;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 1100px) {
+  div.place {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1099px) and (min-width: 950px){
+  div.place {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 949px) and (min-width: 700px){
+  div.place {
+    font-size: 40px;
+  }
+}
+
+.col-12 {
+  position: relative;
+  padding: 20px 40px 20px 40px; 
+  color:white
+}
+
+#lang-list{
+  text-align: left
+}
