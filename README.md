@@ -1,4 +1,4 @@
-# ENGO 551;Lab0
+# Lab 0, ENGO 551
 
 This website includes bits and bobs of information about colors including
 -a history on colors which also questions what colors are
