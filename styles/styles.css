@@ -1,0 +1,44 @@
+.headerbar {
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    width: 100%;
+    background-image: url("../img/map.jpg");
+    height:80px;
+    font-size: 20;
+}  
+
+div.place {
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 1100px) {
+  div.place {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1099px) and (min-width: 950px){
+  div.place {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 949px) and (min-width: 700px){
+  div.place {
+    font-size: 40px;
+  }
+}
+
+.col-12 {
+  position: relative;
+  text-align: center;
+}
+
+#lang-list{
+  text-align: left
+}

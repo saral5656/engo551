@@ -1,0 +1,34 @@
+/* Define standard variables and values for website */
+$bgcolor: #bbcbd0;
+$link-color: #0d566c;
+$hover-color: rgb(0, 50, 250);
+$font: 'Courier New', Courier, monospace;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  font-size: $font;
+} 
+
+.home-table {
+    table,th,td{
+        margin: auto;
+        border: solid black;
+    }
+    a{
+        font-family: $font;
+        color: $link-color;
+    }
+    a:hover{
+        color:$hover-color;
+    }
+}
+
+
+.col-6 {
+    @extend .home-table;
+    border: 20px solid rgb(100, 124, 126);
+    height: 300px;
+    text-align: center
+
+  }
