@@ -1,3 +1,4 @@
+
 /* Define standard variables and values for website */
 $bgcolor: #bbcbd0;
 $link-color: #0d566c;
@@ -23,6 +24,15 @@ body {
         color:$hover-color;
     }
 }
+
+
+.col-6 {
+    @extend .home-table;
+    border: 20px solid rgb(100, 124, 126);
+    height: 300px;
+    text-align: center
+
+  }
 
 
 .col-6 {
